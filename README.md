@@ -72,3 +72,7 @@ public class WordItem
 - 啟動程式：執行專案後，狀態列表預設提示「請開啟檔案」。
 - 載入檔案：點擊選單 File -> Open 並選取該文字檔 ，隨即能在畫面上看到排版整齊的「單字、音標、音檔路徑、解釋」四個欄位 。
 - 關於表單：點擊 Help -> About 可開啟獨立的強制回應視窗展示程式資訊 。
+
+## Screenshots
+
+![screenshot](./tsvfile.png)
