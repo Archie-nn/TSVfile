@@ -12,14 +12,17 @@
 ## 🛠️ 開發環境與控制項配置
 
 ### 1. 介面控制項配置 (`frmTSVFile`)
-主表單包含以下核心 UI 控制項與屬性設定 [cite: 8]：
+主表單包含以下核心 UI 控制項與屬性設定 ：
 **MenuStrip (`mnsword`)**：表單置頂（`Dock: Top`），提供功能表選項 ：
+
     * `File` ➡️ `Open` (`tsmiOpen`)、`Exit` (`tsmiExit`)
     * `Help` ➡️ `About` (`tsmiAbout`) 
+    
 **ListView (`lvwWord`)**：填滿剩餘視窗（`Dock: Fill`），用於呈現結構化單字清單。
     *`View`: `Details` (詳細資料模式)
     *`FullRowSelect`: `True` (整列選取)
-    ***欄位(ColumnHeader)配置**：包含「單字」、「音標」、「音檔路徑」、「解釋」四個資料欄，預設寬度皆為 `60` 
+    **欄位(ColumnHeader)配置**：包含「單字」、「音標」、「音檔路徑」、「解釋」四個資料欄，預設寬度皆為 `60` 
+    
 **StatusStrip (`ssrword`)**：位於表單底部（`Dock: Bottom`）
     * 內含 **ToolStripStatusLabel (`tsslMessage`)**：用於即時顯示系統載入狀態訊息 
 
