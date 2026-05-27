@@ -15,8 +15,8 @@
 主表單包含以下核心 UI 控制項與屬性設定 ：
 **MenuStrip (`mnsword`)**：表單置頂（`Dock: Top`），提供功能表選項 ：
 
-    * `File` ➡️ `Open` (`tsmiOpen`)、`Exit` (`tsmiExit`)
-    * `Help` ➡️ `About` (`tsmiAbout`) 
+    * File ➡️ Open` (`tsmiOpen`)、`Exit` (`tsmiExit`)
+    * Help ➡️ `About` (`tsmiAbout`) 
     
 **ListView (`lvwWord`)**：填滿剩餘視窗（`Dock: Fill`），用於呈現結構化單字清單。
     *`View`: `Details` (詳細資料模式)
