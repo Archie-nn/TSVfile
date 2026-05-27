@@ -15,8 +15,8 @@
 主表單包含以下核心 UI 控制項與屬性設定 ：
 **MenuStrip (`mnsword`)**：表單置頂（`Dock: Top`），提供功能表選項 ：
 
-    * File ➡️ Open` (`tsmiOpen`)、`Exit` (`tsmiExit`)
-    * Help ➡️ `About` (`tsmiAbout`) 
+    * File ➡️ Open (`tsmiOpen`)、`Exit` (`tsmiExit`)
+    * Help ➡️ About (`tsmiAbout`) 
     
 **ListView (`lvwWord`)**：填滿剩餘視窗（`Dock: Fill`），用於呈現結構化單字清單。
     *`View`: `Details` (詳細資料模式)
@@ -65,3 +65,10 @@ public class WordItem
         return Word;
     }
 }
+```
+
+### 📖 實驗/操作步驟指引資料準備：
+- 在 Excel 中將建立好的單字表另存新檔為「Unicode 文字 (*.txt)」，確保其編碼為 UTF-8 以免國際音標變亂碼 。
+- 啟動程式：執行專案後，狀態列表預設提示「請開啟檔案」。
+- 載入檔案：點擊選單 File -> Open 並選取該文字檔 ，隨即能在畫面上看到排版整齊的「單字、音標、音檔路徑、解釋」四個欄位 。
+- 關於表單：點擊 Help -> About 可開啟獨立的強制回應視窗展示程式資訊 。
